@@ -30,6 +30,39 @@
 #  abstract: null
 
 ############### 2026 ##################
+
+- key: Yan2026SMART
+  title: "Advancing MAPF Toward the Real World: A Scalable Multi-Agent Realistic Testbed (SMART)"
+  site: https://jingtianyan.github.io/smart-docs/
+  authors: [Jingtian Yan, Zhifei Li, William Kang, Kevin Zheng, Yulun Zhang, Zhe Chen, Yue Zhang, Daniel Harabor, Stephen F. Smith, Jiaoyang Li]
+  venue: RAL
+  year: 2026
+  thumbnail: /files/jingtianyan/ral26_smart/SMART.gif
+  eprint: arXiv:2503.04798
+  tags: [mapf, warehouse, execution]
+  links:
+    arXiv: https://arxiv.org/abs/2503.04798
+    Code: https://github.com/JingtianYan/SMART/
+    Demo: https://smart-mapf.github.io/demo/
+    Video: https://youtu.be/irtFxMjyJXs
+  abstract: "We present Scalable Multi-Agent Realistic Testbed (SMART), a realistic and efficient software tool for evaluating Multi-Agent Path Finding (MAPF) algorithms. MAPF focuses on planning collision-free paths for a group of agents. While state-of-the-art MAPF algorithms can plan paths for hundreds of robots in seconds, they often rely on simplified robot models, making their real-world performance unclear. Researchers typically lack access to hundreds of physical robots in laboratory settings to evaluate the algorithms. Meanwhile, industrial professionals who lack expertise in MAPF require an easy-to-use simulator to efficiently test and understand the performance of MAPF algorithms in their specific settings. SMART fills this gap with several advantages: (1) SMART uses a physics-engine-based simulator to create realistic simulation environments, accounting for complex real-world factors such as robot kinodynamics and execution uncertainties, (2) SMART uses an execution monitor framework based on the Action Dependency Graph, facilitating seamless integration with various MAPF algorithms and robot models, and (3) SMART scales to thousands of robots. In addition, we use SMART to explore and demonstrate research questions about the execution of MAPF algorithms in real-world scenarios. "
+
+- key: YanICAPS26
+  title: "Analyzing Planner Design Trade-Offs for MAPF Under ADG-Based Realistic Execution"
+  site: null
+  authors: [Jingtian Yan, Zhifei Li, William Kang, Stephen F. Smith, Jiaoyang Li]
+  venue: ICAPS
+  year: 2026
+  thumbnail: /files/jingtianyan/icaps26_design_tradeoff/icaps_design_smart.gif
+  tags: [mapf, warehouse, execution]
+  links:
+    arXiv: https://arxiv.org/abs/2512.09736
+    Code: null
+    Poster: null
+    Slides: null
+    Talk: null
+  abstract: "Multi-Agent Path Finding (MAPF) algorithms are increasingly deployed in industrial warehouses and automated manufacturing facilities, where robots must operate reliably under real-world physical constraints. However, existing MAPF evaluation frameworks typically rely on simplified robot models, leaving a substantial gap between algorithmic benchmarks and practical performance. Recent frameworks such as SMART combine kinodynamic modeling with execution based on the Action Dependency Graph (ADG), enabling realistic, large-scale MAPF evaluation. Building on this capability, this work investigates how key planner design choices influence performance under realistic execution settings. We systematically study three fundamental factors: (1) the relationship between solution optimality and execution performance, (2) the sensitivity of system performance to inaccuracies in kinodynamic modeling, and (3) the tradeoff between model accuracy and plan optimality. Empirically, we examine these factors to understand how these design choices affect performance in realistic scenarios. We highlight open challenges and research directions to steer the community toward practical, real-world deployment."
+
 - key: VeerapaneniICRA26
   title: "Conflict-Based Search as a Protocol: A Multi-Agent Motion Planning Protocol for Heterogeneous Agents, Solvers, and Independent Tasks"
   site: https://rishi-v.github.io/CBS-Protocol/  # project page
