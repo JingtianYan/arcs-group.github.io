@@ -31,12 +31,34 @@
 
 ############### 2026 ##################
 
+- key: Yan2026WinkTPG
+  title: "WinkTPG: An Execution Framework for Multi-Agent Path Finding Using Temporal Reasoning"
+  site: https://jingtianyan.github.io/publication/2026-06-07-winktpg
+  authors: [Jingtian Yan, Stephen F. Smith, Jiaoyang Li]
+  venue: TASE
+  volume: 23
+  pages: 9162-9175
+  year: 2026
+  doi: 10.1109/TASE.2026.3688563
+  thumbnail: /files/jingtianyan/tase26_winktpg/winkTPG-Isaac-sim.gif
+  eprint: arXiv:2508.01495
+  tags: [mapf, warehouse, execution]
+  links:
+    arXiv: https://arxiv.org/abs/2508.01495
+    PDF: https://arxiv.org/pdf/2508.01495.pdf
+    Video: https://youtu.be/t9phIGjdiMk
+  abstract: "WinkTPG is an execution framework for Multi-Agent Path Finding (MAPF) that refines MAPF plans into kinodynamically feasible speed profiles through temporal reasoning. It combines kinodynamic Temporal Plan Graph planning with a windowed execution mechanism, allowing the system to incorporate updated agent information during execution and reduce timing uncertainty while preserving collision-avoidance guarantees."
+
 - key: Yan2026SMART
   title: "Advancing MAPF Toward the Real World: A Scalable Multi-Agent Realistic Testbed (SMART)"
   site: https://jingtianyan.github.io/smart-docs/
   authors: [Jingtian Yan, Zhifei Li, William Kang, Kevin Zheng, Yulun Zhang, Zhe Chen, Yue Zhang, Daniel Harabor, Stephen F. Smith, Jiaoyang Li]
   venue: RAL
+  volume: 11
+  number: 6
+  pages: 7428-7435
   year: 2026
+  doi: 10.1109/LRA.2026.3688062
   thumbnail: /files/jingtianyan/ral26_smart/SMART.gif
   eprint: arXiv:2503.04798
   tags: [mapf, warehouse, execution]
@@ -49,7 +71,7 @@
 
 - key: YanICAPS26
   title: "Analyzing Planner Design Trade-Offs for MAPF Under ADG-Based Realistic Execution"
-  site: null
+  site: https://jingtianyan.github.io/publication/2026-06-07-mapf-planner-tradeoffs
   authors: [Jingtian Yan, Zhifei Li, William Kang, Stephen F. Smith, Jiaoyang Li]
   venue: ICAPS
   year: 2026
