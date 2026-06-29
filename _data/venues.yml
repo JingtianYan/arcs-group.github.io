@@ -77,3 +77,6 @@ AutoRobots:
 RAL:
   name: "IEEE Robotics and Automation Letters"
   type: journal
+TASE:
+  name: "IEEE Transactions on Automation Science and Engineering"
+  type: journal
